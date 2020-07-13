@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table>
+		<tr>
+			<td colspan="4" id="disp-result"></td>
+		</tr>
+		<tr>
+			<td onclick="disp('clear')">AC</td>
+			<td onclick="disp('changeSign')">+/-</td>
+			<td onclick="disp('percent')">%</td>
+			<td onclick="disp('divide')" class="change-color">/</td>
+		</tr>
+		<tr>
+			<td onclick="disp('seven')">7</td>
+			<td onclick="disp('eight')">8</td>
+			<td onclick="disp('nine')">9</td>
+			<td onclick="disp('multi')" class="change-color">*</td>
+		</tr>
+		<tr>
+			<td onclick="disp('four')">4</td>
+			<td onclick="disp('five')">5</td>
+			<td onclick="disp('six')">6</td>
+			<td onclick="disp('minus')" class="change-color">-</td>
+		</tr>
+		<tr>
+			<td onclick="disp('one')">1</td>
+			<td onclick="disp('two')">2</td>
+			<td onclick="disp('three')">3</td>
+			<td onclick="disp('add')" class="change-color">+</td>
+		</tr>
+		<tr>
+			<td colspan="2" onclick="disp('zero')" >0</td>
+			<td onclick="disp('decimal')">.</td>
+			<td onclick="disp('equal')" class="change-color">=</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
